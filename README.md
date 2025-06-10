@@ -78,5 +78,5 @@ schedule.every().day.at("08:00").do(enviar_mensagem)
 ## 🔮 Próximos Passos
 
 * Criar uma interface.
-* Permitir mudar o nome do grupo manualmente.
+* Permitir mudar o nome do grupo, sem alterar o código.
 * Permitir enviar mensagem para o grupo de escritório e para grupo de campo de forma personalizada.
