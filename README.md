@@ -68,11 +68,15 @@ schedule.every().day.at("08:00").do(enviar_mensagem)
 
 * O WhatsApp pode detectar automações e restringir o uso. **Evite uso excessivo** ou fora dos termos de uso.
 * Mantenha o Chrome aberto e autenticado no WhatsApp Web para funcionamento contínuo.
+* As mensagens são especificas para trabalhadores de campo.
 * O caminho de perfil do Chrome precisa estar correto para preservar o login:
 
   ```python
   options.add_argument(f"user-data-dir={APPDATA}\\AppData\\Local\\Google\\Chrome\\User Data\\Default")
   ```
+---
+## 🔮 Próximos Passos
 
-
-
+* Criar uma interface.
+* Permitir mudar o nome do grupo manualmente.
+* Permitir enviar mensagem para o grupo de escritório e para grupo de campo de forma personalizada.
