@@ -15,7 +15,7 @@ import schedule
 
 APPDATA = os.path.expanduser('~')
 
-contatos = ['⛑ Segurança EPD-MS ⛑']  # Nome exato do grupo
+contatos = ['NOME DO GRUPO']  # Nome exato do grupo
 mensagens_seguranca_campo = [
     "Senhores, bom dia! \nUse sempre os EPIs — sua segurança vem em primeiro lugar! \nNão se esqueçam da APR e os Checklist, ok? \nÓtimo dia para todos",
     "Senhores, bom dia! \nNão existe serviço tão urgente que não possa ser feito com segurança.  \nNão se esqueçam da APR e os Checklist, ok? \nÓtimo dia para todos",
