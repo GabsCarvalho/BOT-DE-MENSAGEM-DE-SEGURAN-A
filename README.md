@@ -40,7 +40,7 @@ pip install selenium webdriver-manager schedule
 2. **Edite a lista de contatos/grupos** no código:
 
    ```python
-   contatos = ['⛑ Segurança EPD-MS ⛑']
+   contatos = ['NOME DO GRUPO']
    ```
 3. **(Opcional)** Personalize a lista de mensagens em `mensagens_seguranca_campo`.
 4. **Execute o script**:
@@ -59,7 +59,7 @@ python seu_script.py
 O projeto usa a biblioteca `schedule`, permitindo o envio de mensagens de forma automatizada em horários programados. Exemplo de uso:
 
 ```python
-schedule.every().day.at("07:00").do(enviar_mensagem)
+schedule.every().day.at("08:00").do(enviar_mensagem)
 ```
 
 ---
